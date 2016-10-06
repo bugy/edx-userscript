@@ -24,7 +24,7 @@ if (window.top === window.self) {
 
                 var currentHeight = iframe.offsetHeight;
 
-                var heightDiff = Math.abs(height-currentHeight);
+                var heightDiff = Math.abs(height - currentHeight);
 
                 if ((heightDiff > 30 ) || (currentHeight == 800)){
                     iframe.style.height = height + "px";
